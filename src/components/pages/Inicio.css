@@ -1,9 +1,9 @@
 .inicio{
-    height: 700px;
     width: 100%;
 
 }
 .imagen-banner{
-    height: 100%;
+    height: 400px;
+    width: 100%;
     object-fit: cover;
 }

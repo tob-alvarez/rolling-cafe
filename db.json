@@ -1,0 +1,31 @@
+{
+  "productos": [
+    {
+      "id": "70af",
+      "producto": "Café",
+      "precio": "750",
+      "url": "https://images.pexels.com/photos/18128093/pexels-photo-18128093/free-photo-of-comida-resfriado-gente-cafe.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoria": "Bebida Caliente",
+      "descripcionBreve": "Cafe en taza",
+      "descripcionAmplia": "Descubre la exquisita experiencia sensorial de nuestro café premium \"Aromas de la Montaña\". Este café de origen único se cultiva en las altas montañas, donde la combinación perfecta de altitud, suelo y clima produce granos de café excepcionales."
+    },
+    {
+      "id": "0922",
+      "producto": "Café helado",
+      "precio": "800",
+      "url": "https://images.pexels.com/photos/10273536/pexels-photo-10273536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoria": "Bebida Fria",
+      "descripcionBreve": "Frozen coffe con caramelo",
+      "descripcionAmplia": "Refresca tu día con nuestra exclusiva creación, el café frío \"Fresco Delight\". Creado con esmero y pasión, este café helado se convierte en una experiencia única que deleitará tus sentidos y te acompañará en los días más cálidos."
+    },
+    {
+      "id": "3c58",
+      "producto": "Galleta con chips",
+      "precio": "500",
+      "url": "https://images.pexels.com/photos/4110541/pexels-photo-4110541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoria": "Galleta",
+      "descripcionBreve": "Galleta con chips de chocolate",
+      "descripcionAmplia": "Sumérgete en la indulgencia con nuestra galleta premium \"Tentación de Chocolate\". Cada bocado es una experiencia irresistible que combina la suavidad de la masa con la explosión de sabores de los chips de chocolate, creando un placer verdaderamente tentador."
+    }
+  ]
+}

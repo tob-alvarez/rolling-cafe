@@ -2,8 +2,17 @@ import logo from '../../assets/Coffee_Logo.png'
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import './Menu.css'
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
+
+  const handleClick = () =>{
+    const navbar = document.getElementById('basic-navbar-nav');
+    if (navbar) {
+      navbar.classList.remove('show');
+    }
+  }
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <div className='d-flex justify-content-between container'>
@@ -15,13 +24,13 @@ const Menu = () => {
         />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Admin</Nav.Link>
-            <Nav.Link href="#link">Registro</Nav.Link>
-            <Nav.Link href="#link">Log In</Nav.Link>
+          <Nav className='text-center'>
+            <Link to="/home" className="mx-3 my-1 links" onClick={handleClick}>Home</Link>
+            <Link to="/admin" className="mx-3 my-1 links" onClick={handleClick}>Admin</Link>
+            <Link to="/registro" className="mx-3 my-1 links" onClick={handleClick}>Registro</Link>
+            <Link to="/login" className="mx-3 my-1 links" onClick={handleClick}>Login</Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> 
       </div>
     </Navbar>
   );

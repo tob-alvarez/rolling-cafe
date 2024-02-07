@@ -1,0 +1,14 @@
+.titulo{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #cfcfcf;
+}
+.input{
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+}
+.errores{
+    color: rgb(194, 16, 16);
+}
