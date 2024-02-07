@@ -24,7 +24,7 @@ const NuevoProducto = () => {
                 Swal.fire({
                     icon: "success",
                     title: "Done",
-                    text: "Producto agregado con éxto",
+                    text: "Producto agregado con éxito",
                   }));
           } else {
             return(
@@ -44,7 +44,7 @@ const NuevoProducto = () => {
         <div className="container">
             <h2 className="titulo mt-4">Nuevo producto</h2>
         </div>
-        <div className='container'>
+        <div className='container layoutHeight'>
             <form onSubmit={handleSubmit(onSubmit)} className='d-flex flex-column'>
                 <input {...register('producto' , {
                     required: 'Campo requerido',
@@ -110,7 +110,7 @@ const NuevoProducto = () => {
                     }
                     })}  placeholder='Descripción Amplia*' className='input'/>
                 <p className='m-0 mx-2 errores'>{errors.descripcionAmplia?.message}</p>
-                <button className='btn btn-success w-25 mt-4' type='submit'>Guardar</button>
+                <button className='btn btn-success mt-4' type='submit'>Guardar</button>
             </form>
         </div>
     </>

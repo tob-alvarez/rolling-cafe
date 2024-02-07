@@ -2,7 +2,7 @@ import logo from '../../assets/Coffee_Logo.png'
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import './Menu.css'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Menu = () => {
 
@@ -12,6 +12,7 @@ const Menu = () => {
       navbar.classList.remove('show');
     }
   }
+  const navigate = useNavigate()
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -21,6 +22,8 @@ const Menu = () => {
           alt="Logo de Rolling Coffee"
           className="img-fluid"
           width={150}
+          onClick={()=> navigate('/home')}
+          style={{cursor: 'pointer'}}
         />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

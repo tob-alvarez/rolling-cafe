@@ -1,0 +1,12 @@
+.imgCard{
+    height: 250px;
+    object-fit: cover;
+}
+.card{
+    height: 500px !important;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

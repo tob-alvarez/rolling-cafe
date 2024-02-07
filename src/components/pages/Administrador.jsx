@@ -41,11 +41,11 @@ const Administrador = () => {
 
   return (
     <>
-      <div className="container d-flex justify-content-between align-items-center mt-3">
+      <div className="container d-flex justify-content-between align-items-center mt-3 ">
         <h2>Productos Disponibles</h2>
         <button className="btn btn-success" onClick={handleClick}>+</button>
       </div>
-      <div className="container mt-5">
+      <div className="container mt-5 layoutHeight">
         <Table striped bordered hover>
           <thead>
             <tr>

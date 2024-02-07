@@ -1,4 +1,6 @@
 .footers{
     background-color: rgb(9, 59, 9) !important;
     height: 70px;
+    bottom: 0;
+    position: relative;
 }
