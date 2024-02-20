@@ -20,7 +20,7 @@ const CardProducto = ({ producto }) => {
             {producto.descripcionBreve} <br />
           </Card.Text>
           <div className="d-flex justify-content-end flex-column">
-            <b>Precio: ${producto.precio}</b>
+            <b className="py-3">Precio: ${producto.precio}</b>
             <Button variant="success" className="botonCard" onClick={handleClick}>
               Ver más
             </Button>

@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Layout>
           <Routes>
-            <Route path="/home" element={<Inicio />} />
+            <Route path="/*" element={<Inicio />} />
             <Route path="/error404" element={<Error404 />} />
             <Route path="/admin" element={<Administrador />} />
             <Route path="/producto/:id" element={<DetalleProducto />} />

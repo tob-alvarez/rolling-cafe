@@ -27,5 +27,11 @@
       "descripcionBreve": "Galleta con chips de chocolate",
       "descripcionAmplia": "Sumérgete en la indulgencia con nuestra galleta premium \"Tentación de Chocolate\". Cada bocado es una experiencia irresistible que combina la suavidad de la masa con la explosión de sabores de los chips de chocolate, creando un placer verdaderamente tentador."
     }
-  ]
+  ],
+    "usuarios":[
+      {
+        "email": "admin@gmail.com",
+        "password": "123"
+      }
+    ]
 }

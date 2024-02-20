@@ -22,13 +22,13 @@ const Menu = () => {
           alt="Logo de Rolling Coffee"
           className="img-fluid"
           width={150}
-          onClick={()=> navigate('/home')}
+          onClick={()=> navigate('/*')}
           style={{cursor: 'pointer'}}
         />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className='text-center'>
-            <Link to="/home" className="mx-3 my-1 links" onClick={handleClick}>Home</Link>
+            <Link to="/*" className="mx-3 my-1 links" onClick={handleClick}>Home</Link>
             <Link to="/admin" className="mx-3 my-1 links" onClick={handleClick}>Admin</Link>
             <Link to="/registro" className="mx-3 my-1 links" onClick={handleClick}>Registro</Link>
             <Link to="/login" className="mx-3 my-1 links" onClick={handleClick}>Login</Link>
