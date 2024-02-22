@@ -7,6 +7,7 @@ import Administrador from './components/pages/Administrador';
 import DetalleProducto from './components/pages/Producto/DetalleProducto';
 import NuevoProducto from './components/pages/Producto/NuevoProducto';
 import EditarProducto from './components/pages/Producto/EditarProducto';
+import Login from './components/pages/Login/Login';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/*" element={<Inicio />} />
             <Route path="/error404" element={<Error404 />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/admin" element={<Administrador />} />
             <Route path="/producto/:id" element={<DetalleProducto />} />
             <Route path="/newProduct" element={<NuevoProducto />} />
